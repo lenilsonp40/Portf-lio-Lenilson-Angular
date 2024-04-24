@@ -18,7 +18,7 @@ Este é o repositório do meu portfólio em desenvolvimento. Ele será uma landi
 
 - Angular 16 ![Angular](https://img.shields.io/badge/-Angular-DD0031?style=flat-square&logo=angular&logoColor=white)
 - TypeScript ![TypeScript](https://img.shields.io/badge/-TypeScript-007ACC?style=flat-square&logo=typescript&logoColor=white)
-- Visual Studio Code (IDE) ![VSCode](https://img.shields.io/badge/-Visual%20Studio%20Code-007ACC?style=flat-square&logo=visual-studio-code&logoColor=white)
+- Bootstrap 5 ![Bootstrap](https://img.shields.io/badge/Bootstrap-563D7C?style=for-the-badge&logo=bootstrap&logoColor=white&style=plastic)
 
 
 6. ## Autor
