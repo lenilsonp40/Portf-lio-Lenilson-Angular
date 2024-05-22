@@ -1,7 +1,11 @@
 {
   "ExpandedNodes": [
-    ""
+    "",
+    "\\src",
+    "\\src\\app",
+    "\\src\\app\\pages",
+    "\\src\\app\\pages\\home"
   ],
-  "SelectedNode": "\\C:\\Estudos\\Dev\\GitHub\\Site-Lenilson-Angular",
+  "SelectedNode": "\\src\\app\\pages\\home\\home.component.html",
   "PreviewInSolutionExplorer": false
 }
