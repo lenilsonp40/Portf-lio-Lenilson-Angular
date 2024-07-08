@@ -13,13 +13,24 @@
   transition: all .6s ease;
   border: none;
   background-color: transparent;
-
 }
-/* .perfil {
-  height: 24px;
-} */
+.buttonMarca svg {
+  margin-right: 3px;
+  transform: rotate(0deg);
+  transition: transform 0.5s cubic-bezier(0.76, 0, 0.24, 1);
+}
+.buttonMarca span {
+  transition: transform 0.5s cubic-bezier(0.76, 0, 0.24, 1);
+}
+.buttonMarca:hover svg {
+  transform: translateX(5px) rotate(90deg);
+}
+.nome,
+.sobrenome {
+  font-size: 1.2em;
+}
 
-button:hover {
+.buttonMarca:hover {
   transform: scale(1.02);
 }
 
@@ -75,9 +86,10 @@ button:hover {
   transform: translate(-0.05em, -0.05em);
   box-shadow: 0.15em 0.15em #5566c2;
 }
-
 .contactButton:active {
   transform: translate(0.05em, 0.05em);
   box-shadow: 0.05em 0.05em #5566c2;
 }
 
+
+/*  */
