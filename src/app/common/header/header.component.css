@@ -1,3 +1,12 @@
+header{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  gap: 1rem;
+  padding: 0.8rem;
+  background-color: #d4d4df;
+}
+
 /* titulo marca */
 
 .buttonMarca {
@@ -28,6 +37,7 @@
 .nome,
 .sobrenome {
   font-size: 1.2em;
+  color: rgb(92, 94, 95);
 }
 
 .buttonMarca:hover {
@@ -38,22 +48,29 @@
 
 .menu-header {
   display: flex;
-  padding: 0 60px;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 1.5em;
 }
-.menu-header a {
+.nav-links {
   color: black;
+  font-family: 'Lato';
   font-size: 1.2em;
   text-decoration: none;
 }
-.nome {
-  margin-right: 1px;
+.nav-links:hover{
+  color: var(--dark4);
+  text-decoration: underline;
+  transition: .4s;
 }
 
 
-/*  */
+
+
+/*  contato */
 
 .contactButton {
-  background: #3f47b3;
+  background: #3434b3;
   color: white;
   font-family: inherit;
   padding: 0.45em;
@@ -93,3 +110,4 @@
 
 
 /*  */
+
